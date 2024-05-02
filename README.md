@@ -12,6 +12,7 @@ Steps Used to Obtain Samples:
 - there were forward & reverse reads for each sample in FASTQ format
 
 The Goal: To have a complete genome assembly and assessment of the chosen reads from the given data.
+
 -the chosen forward & reverse reads:
 
 36_S3_L001_R1_001.fastq.gz
