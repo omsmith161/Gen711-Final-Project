@@ -33,7 +33,7 @@ Figure 2. Comparing the forward read Adapter Content before and after trimming a
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/dee7e192-cda2-43c2-ae32-bd385786cbb4)
 
 Pre-Filtered Quast Data: 
-Assembly                    contigs
+Assembly                   contigs
 # contigs (>= 0 bp)         80     
 # contigs (>= 1000 bp)      25     
 # contigs (>= 5000 bp)      22     
@@ -55,8 +55,10 @@ Pre-Filtered Busco Data:
 	124	Total BUSCO groups searched
 
 Running blobtools allowed us to create a database using our contigs data and compare it against the nucleotide database. We created an output table that aided us in evaluating which contigs to remove for our next step in filtering.
+
 Figure 3. Comparing the GC Content vs the Coverage of Microbacterium and the Span in (Kb) of Microbacterium vs No-Hit data using Blobtools (Pre-filtering) 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot read_cov bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/ea10f1f8-0464-4d72-988d-4ecf10eec3b3)
+
 Figure 4. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. Right Graph Comparing the Percentages of No-Hit vs Microbacterium Data (Pre-filtering). Both used Blobtools. 
 
 
