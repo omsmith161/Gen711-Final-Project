@@ -33,7 +33,7 @@ Figure 2. Comparing the forward read Adapter Content before and after trimming a
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/dee7e192-cda2-43c2-ae32-bd385786cbb4)
 
 # Pre-Filtered Quast Data: 
-Assembly                       contigs
+Assembly           -            contigs
 - Number of Contigs (>= 0 bp)      80
 - Number of Contigs (>= 1000 bp)   25
 - Number of Contigs (>= 5000 bp)   22
@@ -75,14 +75,14 @@ Figure 4. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. R
 Below is a shortened Quast data set for our fully filtered and assembled genome. It is clear that when comparing the two sets of Quast data that the filtering commands worked and cleaned up our data.   
 Final Filtered Quast Data:
 Assembly                    microbacterium
-# contigs (>= 0 bp)         26            
-# contigs (>= 1000 bp)      25            
-# contigs (>= 5000 bp)      22            
-# contigs (>= 10000 bp)     19            
-# contigs (>= 25000 bp)     17            
-# contigs (>= 50000 bp)     14            
-Total length (>= 0 bp)      3090831              
-# contigs                   26            
+- contigs (>= 0 bp)         26            
+- contigs (>= 1000 bp)      25            
+- contigs (>= 5000 bp)      22            
+- contigs (>= 10000 bp)     19            
+- contigs (>= 25000 bp)     17            
+- contigs (>= 50000 bp)     14            
+- Total length (>= 0 bp)      3090831              
+- contigs                   26            
 
 In comparing the two Busco results from before and after filtering, they were both 99.2% complete and were only missing 1 Busco group. 
 Final Busco Results:
