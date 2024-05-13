@@ -31,6 +31,12 @@ Running trimmomatic successfully allowed us to trim the adapter sequences off of
 <img width="936" alt="Screen Shot 2024-05-02 at 6 12 01 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/116675192/cc178afb-3ac0-4214-b924-a306ccb528b5">
 Figure 2. Comparing the forward read Adapter Content before and after trimming adapters using trimmomatic. 
 
+
+
+<img width="1300" alt="Screen Shot 2024-05-08 at 11 25 33 AM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/530b1c10-ebe7-4efc-be17-825b36cf59d5">
+
+Figure 3. Comparing the reverse reads Adapter Content before and after trimming adapters using trimmomatic.
+
 ## Pre-Filtered Quast Data: 
 Assembly------------------------contigs
 - Number of Contigs (>= 0 bp)      80
@@ -63,11 +69,11 @@ One of our outputs was a file called protein_abundances.txt, and this gave us a 
 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/f20add11-23fc-4731-b471-d5b15b1cc5d1)
 
-Figure 3. Comparing the GC Content vs the Coverage of Microbacterium and the Span in (Kb) of Microbacterium vs No-Hit data using Blobtools (Pre-filtering) 
+Figure 4. Comparing the GC Content vs the Coverage of Microbacterium and the Span in (Kb) of Microbacterium vs No-Hit data using Blobtools (Pre-filtering) 
 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot read_cov bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/ea10f1f8-0464-4d72-988d-4ecf10eec3b3)
 
-Figure 4. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. Right Graph Comparing the Percentages of No-Hit vs Microbacterium Data (Pre-filtering). Both used Blobtools. 
+Figure 5. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. Right Graph Comparing the Percentages of No-Hit vs Microbacterium Data (Pre-filtering). Both used Blobtools. 
 
 
 ## Conclusions
