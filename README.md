@@ -32,8 +32,8 @@ Running trimmomatic successfully allowed us to trim the adapter sequences off of
 Figure 2. Comparing the forward read Adapter Content before and after trimming adapters using trimmomatic. 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/dee7e192-cda2-43c2-ae32-bd385786cbb4)
 
-# Pre-Filtered Quast Data: 
-Assembly           -            contigs
+## Pre-Filtered Quast Data: 
+Assembly------------------------contigs
 - Number of Contigs (>= 0 bp)      80
 - Number of Contigs (>= 1000 bp)   25
 - Number of Contigs (>= 5000 bp)   22
@@ -43,7 +43,7 @@ Assembly           -            contigs
 - Total length (>= 0 bp)           3112414
 - Number of Contigs                28
 
-# Pre-Filtered Busco Data:
+## Pre-Filtered Busco Data:
 ***** Results: *****
 
 	C:99.2%[S:99.2%,D:0.0%],F:0.0%,M:0.8%,n:124	   
@@ -73,8 +73,8 @@ Figure 4. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. R
 
 ## Conclusions
 Below is a shortened Quast data set for our fully filtered and assembled genome. It is clear that when comparing the two sets of Quast data that the filtering commands worked and cleaned up our data.   
-Final Filtered Quast Data:
-Assembly                    microbacterium
+## Final Filtered Quast Data
+Assembly-------------microbacterium
 - contigs (>= 0 bp)         26            
 - contigs (>= 1000 bp)      25            
 - contigs (>= 5000 bp)      22            
@@ -85,7 +85,8 @@ Assembly                    microbacterium
 - contigs                   26            
 
 In comparing the two Busco results from before and after filtering, they were both 99.2% complete and were only missing 1 Busco group. 
-Final Busco Results:
+
+## Final Busco Results:
 ***** Results: *****
 
         C:99.2%[S:99.2%,D:0.0%],F:0.0%,M:0.8%,n:124        
@@ -95,4 +96,12 @@ Final Busco Results:
         0       Fragmented BUSCOs (F)                      
         1       Missing BUSCOs (M)                         
         124     Total BUSCO groups searched  
+
+
+ ## Circular Genome
+ - We were able to create a circular genome visual using our Prokka results with the 16s rRNA gene into a site called Prokksee.
+<img width="590" alt="Screen Shot 2024-05-13 at 2 22 48 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/e0d30992-d541-43b6-8490-a2d47154f3cb">
+
+
+
 
