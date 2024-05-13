@@ -13,7 +13,7 @@ Steps Used to Obtain Samples:
 - there were forward & reverse reads for each sample in FASTQ format
 
 We used data that was found in a shared directory on ron.
-The Goal: To have a complete genome assembly and assessment of the chosen reads from the given data.
+-- The Goal: To have a complete genome assembly and assessment of the chosen reads from the given data.
 
 -the chosen forward & reverse reads:
 
@@ -30,7 +30,6 @@ Running trimmomatic successfully allowed us to trim the adapter sequences off of
 <img width="972" alt="Screen Shot 2024-05-02 at 6 08 38 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/116675192/24aacbc9-b880-4e76-bd91-4289944b65ec">
 <img width="936" alt="Screen Shot 2024-05-02 at 6 12 01 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/116675192/cc178afb-3ac0-4214-b924-a306ccb528b5">
 Figure 2. Comparing the forward read Adapter Content before and after trimming adapters using trimmomatic. 
-![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/dee7e192-cda2-43c2-ae32-bd385786cbb4)
 
 ## Pre-Filtered Quast Data: 
 Assembly------------------------contigs
