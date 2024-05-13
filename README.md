@@ -34,14 +34,14 @@ Figure 2. Comparing the forward read Adapter Content before and after trimming a
 
 # Pre-Filtered Quast Data: 
 Assembly                       contigs
-Number of Contigs (>= 0 bp)      80
-Number of Contigs (>= 1000 bp)   25
-Number of Contigs (>= 5000 bp)   22
-Number of Contigs (>= 10000 bp)  19
-Number of Contigs (>= 25000 bp)  17
-Number of Contigs (>= 50000 bp)  14
-Total length (>= 0 bp)           3112414
-Number of Contigs                28
+- Number of Contigs (>= 0 bp)      80
+- Number of Contigs (>= 1000 bp)   25
+- Number of Contigs (>= 5000 bp)   22
+- Number of Contigs (>= 10000 bp)  19
+- Number of Contigs (>= 25000 bp)  17
+- Number of Contigs (>= 50000 bp)  14
+- Total length (>= 0 bp)           3112414
+- Number of Contigs                28
 
 # Pre-Filtered Busco Data:
 ***** Results: *****
@@ -54,14 +54,18 @@ Number of Contigs                28
 	1	Missing BUSCOs (M)			   
 	124	Total BUSCO groups searched
 
-# Prokka
+## Prokka
 One of our outputs was a file called protein_abundances.txt, and this gave us a list of all the hypothetical proteins that could possibly come from the genes in this genome. The most important gene that we recieved from the analysis was a 16s rRNA gene. This gene was used and inserted into the BLAST database. 
 
-# BLAST Results
+## BLAST Results
 <img width="695" alt="Screen Shot 2024-05-13 at 2 05 45 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/50c46d6b-0c94-49df-b080-c14905fd198f">
 
-# Blobtools 
+## Blobtools 
+
+![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/f20add11-23fc-4731-b471-d5b15b1cc5d1)
+
 Figure 3. Comparing the GC Content vs the Coverage of Microbacterium and the Span in (Kb) of Microbacterium vs No-Hit data using Blobtools (Pre-filtering) 
+
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot read_cov bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/ea10f1f8-0464-4d72-988d-4ecf10eec3b3)
 
 Figure 4. Left Graph Comparing Mapped vs Unmapped Percentages of the Assembly. Right Graph Comparing the Percentages of No-Hit vs Microbacterium Data (Pre-filtering). Both used Blobtools. 
