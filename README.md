@@ -32,18 +32,18 @@ Running trimmomatic successfully allowed us to trim the adapter sequences off of
 Figure 2. Comparing the forward read Adapter Content before and after trimming adapters using trimmomatic. 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/dee7e192-cda2-43c2-ae32-bd385786cbb4)
 
-Pre-Filtered Quast Data: 
-Assembly                   contigs
-# contigs (>= 0 bp)         80     
-# contigs (>= 1000 bp)      25     
-# contigs (>= 5000 bp)      22     
-# contigs (>= 10000 bp)     19     
-# contigs (>= 25000 bp)     17     
-# contigs (>= 50000 bp)     14     
-Total length (>= 0 bp)      3112414
-# contigs                   28     
+# Pre-Filtered Quast Data: 
+Assembly                       contigs
+Number of Contigs (>= 0 bp)      80
+Number of Contigs (>= 1000 bp)   25
+Number of Contigs (>= 5000 bp)   22
+Number of Contigs (>= 10000 bp)  19
+Number of Contigs (>= 25000 bp)  17
+Number of Contigs (>= 50000 bp)  14
+Total length (>= 0 bp)           3112414
+Number of Contigs                28
 
-Pre-Filtered Busco Data:
+# Pre-Filtered Busco Data:
 ***** Results: *****
 
 	C:99.2%[S:99.2%,D:0.0%],F:0.0%,M:0.8%,n:124	   
@@ -54,8 +54,13 @@ Pre-Filtered Busco Data:
 	1	Missing BUSCOs (M)			   
 	124	Total BUSCO groups searched
 
-Running blobtools allowed us to create a database using our contigs data and compare it against the nucleotide database. We created an output table that aided us in evaluating which contigs to remove for our next step in filtering.
+# Prokka
+One of our outputs was a file called protein_abundances.txt, and this gave us a list of all the hypothetical proteins that could possibly come from the genes in this genome. The most important gene that we recieved from the analysis was a 16s rRNA gene. This gene was used and inserted into the BLAST database. 
 
+# BLAST Results
+<img width="695" alt="Screen Shot 2024-05-13 at 2 05 45 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/50c46d6b-0c94-49df-b080-c14905fd198f">
+
+# Blobtools 
 Figure 3. Comparing the GC Content vs the Coverage of Microbacterium and the Span in (Kb) of Microbacterium vs No-Hit data using Blobtools (Pre-filtering) 
 ![blob_out blobDB json bestsum genus p8 span 100 blobplot read_cov bam0](https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/ea10f1f8-0464-4d72-988d-4ecf10eec3b3)
 
