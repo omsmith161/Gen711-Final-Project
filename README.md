@@ -107,6 +107,29 @@ In comparing the two Busco results from before and after filtering, they were bo
  - We were able to create a circular genome visual using our Prokka results with the 16s rRNA gene into a site called Prokksee.
 <img width="590" alt="Screen Shot 2024-05-13 at 2 22 48 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/e0d30992-d541-43b6-8490-a2d47154f3cb">
 
+## Resources 
+Blast Web Data:
+- https://blast.ncbi.nlm.nih.gov/Blast.cgi#
+
+Original Study’s Data: 
+- https://docs.google.com/presentation/d/1OBzO8tTlOovftlic2hYZ7EWInaVoaPCbp_dOabNGVWY/edit#slide=id.g13fdf044cda_11_289
+
+Github Tutorial:
+- https://github.com/Joseph7e/MDIBL-T3-WGS-Tutorial 
+
+Papers:
+- Grant, J. R., Enns, E., Marinier, E., Mandal, A., Herman, E. K., Chen, C., Graham, M., Van 
+Domselaar, G., & Stothard, P. (2023). Proksee: in-depth characterization and visualization of bacterial genomes. Nucleic Acids Research, 51(W1), 
+W484–W492. https://doi.org/10.1093/nar/gkad326
+
+- Sanchez, S., Snider, E. v., Wang, X., & Kearns, D. B. (2022). Identification of Genes 
+Required for Swarming Motility in Bacillus subtilis Using Transposon Mutagenesis and High-Throughput Sequencing (TnSeq). Journal of Bacteriology, 
+204(6). https://doi.org/10.1128/jb.00089-22
+
+- P0A6Y8 · DNAK_ECOLI. (n.d.). UniProt.
+https://www.uniprot.org/uniprotkb/P0A6Y8/entry
+
+
 
 
 
