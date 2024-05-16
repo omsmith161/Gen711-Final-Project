@@ -1,5 +1,5 @@
 # Gen711-Final-Project
-
+*Olivia Smith and Danielle Dos Santos*
 ## Background
 The original reads that we used for this project came from sequencing seaweed-eating microbes that were collected from Acadia National Park. 
 https://docs.google.com/presentation/d/1OBzO8tTlOovftlic2hYZ7EWInaVoaPCbp_dOabNGVWY/edit#slide=id.g13fdf044cda_11_289
