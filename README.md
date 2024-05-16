@@ -70,7 +70,10 @@ After Quast, BUSCO was used to examine the completeness of this stage of assembl
 Prokka was used to annotate the genome with common bacterial genes. One of our outputs was a file called protein_abundances.txt, and this gave us a list of all the hypothetical proteins that could possibly come from the genes in this genome. The most important gene that we annotated with PROKKA was the 16s rRNA gene. This gene was used and inserted into the BLAST database. The 16s rRNA gene is very highly conserved in bacteria, and it can be used for species identification because this region is highly variable between species.
 
 ## BLAST Results
-This was our output from running BLAST on the NCBI website. After PROKKA annotation, we pulled just the 16s rRNA gene sequence and copied and pasted that into BLAST. From this analysis, we saw that our 16s rRNA gene matched with both __Microbacterium oryzae_ and __Microbacterium barkeri_. These two bacteria species are probably very closely related, so it is not surprising that our gene matched with more than one species. We chose to identify our species as _Microbacterium barkeri___ because it had a greater percent match and came up more frequently. 
+This was our output from running BLAST on the NCBI website. After PROKKA annotation, we pulled just the 16s rRNA gene sequence and copied and pasted that into BLAST. From this analysis, we saw that our 16s rRNA gene matched with both __Microbacterium oryzae_ and __Microbacterium barkeri_.    
+
+These two bacteria species are probably very closely related, so it is not surprising that our gene matched with more than one species. We chose to identify our species as _Microbacterium barkeri___ because it had a greater percent match and came up more frequently. 
+
 <img width="695" alt="Screen Shot 2024-05-13 at 2 05 45 PM" src="https://github.com/omsmith161/Gen711-Final-Project/assets/158241303/50c46d6b-0c94-49df-b080-c14905fd198f">
 
 ## Blobtools 
